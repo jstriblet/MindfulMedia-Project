@@ -27,3 +27,28 @@
 [debug] [2020-03-19T23:35:43.585Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-03-20T00:00:53.605Z] ----------------------------------------------------------------------
+[debug] [2020-03-20T00:00:53.607Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-20T00:00:53.607Z] CLI Version:   7.12.1
+[debug] [2020-03-20T00:00:53.607Z] Platform:      darwin
+[debug] [2020-03-20T00:00:53.607Z] Node Version:  v13.8.0
+[debug] [2020-03-20T00:00:53.608Z] Time:          Thu Mar 19 2020 17:00:53 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-03-20T00:00:53.608Z] ----------------------------------------------------------------------
+[debug] [2020-03-20T00:00:53.608Z] 
+[debug] [2020-03-20T00:00:53.613Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-20T00:00:53.614Z] > authorizing via signed-in user
+[debug] [2020-03-20T00:00:53.614Z] [iam] checking project striblet-2c0ae for permissions ["firebase.projects.get"]
+[debug] [2020-03-20T00:00:53.615Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/striblet-2c0ae:testIamPermissions  
+
+[debug] [2020-03-20T00:00:53.861Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-20T00:00:53.863Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/striblet-2c0ae  
+ 
+[debug] [2020-03-20T00:00:54.140Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/striblet/Documents/CS/MindfulMedia'...
+[info] 
+[debug] [2020-03-20T00:00:54.143Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/striblet-2c0ae/webApps/-/config  
+ 
+[debug] [2020-03-20T00:00:54.441Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
