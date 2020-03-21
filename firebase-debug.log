@@ -52,3 +52,32 @@
 [debug] [2020-03-20T00:00:54.441Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-03-21T04:22:55.952Z] ----------------------------------------------------------------------
+[debug] [2020-03-21T04:22:55.954Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-21T04:22:55.954Z] CLI Version:   7.12.1
+[debug] [2020-03-21T04:22:55.954Z] Platform:      darwin
+[debug] [2020-03-21T04:22:55.954Z] Node Version:  v13.8.0
+[debug] [2020-03-21T04:22:55.963Z] Time:          Fri Mar 20 2020 21:22:55 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-03-21T04:22:55.963Z] ----------------------------------------------------------------------
+[debug] [2020-03-21T04:22:55.963Z] 
+[debug] [2020-03-21T04:22:55.976Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-21T04:22:55.976Z] > authorizing via signed-in user
+[debug] [2020-03-21T04:22:55.977Z] [iam] checking project striblet-2c0ae for permissions ["firebase.projects.get"]
+[debug] [2020-03-21T04:22:55.978Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-21T04:22:55.978Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-21T04:22:56.185Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-21T04:22:56.205Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/striblet-2c0ae:testIamPermissions  
+
+[debug] [2020-03-21T04:22:56.555Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-21T04:22:56.556Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/striblet-2c0ae  
+ 
+[debug] [2020-03-21T04:22:56.857Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/striblet/Documents/CS/MindfulMedia'...
+[info] 
+[debug] [2020-03-21T04:22:56.859Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/striblet-2c0ae/webApps/-/config  
+ 
+[debug] [2020-03-21T04:22:57.201Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
